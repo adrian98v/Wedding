@@ -43,6 +43,8 @@ body{
     border-top: 1px solid rgba(231, 204, 222, 0.76);
     padding-top: 40px;
     height: 500px;
+    background-color:rgba(255, 246, 252, 0.616);
+    
 }
 
 
@@ -50,6 +52,11 @@ body{
     font-size: 22px;
     font-family: "Montserrat", sans-serif;
     color: rgba(53, 48, 48, 0.692);
-    margin-bottom: 20px;
 }
 
+.calendario_division{
+    height: 50px;
+    width: 70%;
+    max-width: 500px;
+    border-bottom: 1px solid rgba(197, 167, 187, 0.856);
+}
