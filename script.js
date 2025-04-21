@@ -44,5 +44,3 @@ const timer = setInterval(()=>{
 }, 1000)
 
 
-
-
