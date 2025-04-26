@@ -7,7 +7,7 @@ body{
     margin: 0 auto;
     text-align: center;
     background-color:rgba(240, 241, 240, 0.616);
-    height: 500px;
+    height: 530px;
     border-bottom: 1px solid rgba(204, 231, 204, 0.712);
     overflow: hidden;
     display: flex;
@@ -20,7 +20,7 @@ body{
     filter:grayscale(30%);
     opacity: .8;
     width: 400px;
-    height: 520px;
+    height: 530px;
     object-fit:cover;
     
 }
