@@ -58,10 +58,9 @@ body{
     border-top: 1px solid rgba(204, 231, 204, 0.712);
     padding-top: 35px;
     height: 60em;
-    background-color:rgba(243, 243, 229, 0.623);
-    /* background-color:rgba(247, 247, 238, 0.623); */
+    background-color:rgba(247, 247, 238, 0.623);
     padding-bottom: 40px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     border-bottom: 1px solid rgba(204, 231, 204, 0.712);
 }
 
@@ -110,7 +109,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 170px;
+    height: 150px;
 
 }
 
@@ -125,7 +124,7 @@ body{
 }
 
 .dress_icon_container img{
-    width: 50px;
+    width: 90px;
     opacity: .7;
     
 }
