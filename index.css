@@ -72,10 +72,11 @@ body{
 }
 
 .calendario_division{
-    height: 50px;
-    width: 70%;
-    max-width: 500px;
-    border-bottom: 1px solid rgba(150, 175, 150, 0.781);
+    width: 75%;
+}
+
+.calendario_division img{
+    width: 100%;
 }
 
 .watch_icon_container img{
@@ -124,9 +125,7 @@ body{
 
 .dress_icon_container img{
     width: 50px;
-    filter: grayscale(60%);
-    opacity: .5;
-    filter: saturate(10%);
+    opacity: .7;
     
 }
 
