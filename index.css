@@ -7,14 +7,16 @@ body{
     margin: 0 auto;
     text-align: center;
     background-color:rgba(248, 245, 247, 0.616);
-    border-bottom: 1px solid rgba(231, 204, 222, 0.76);
 }
 
-.imagen_container img{
-    width: 100%;
-    max-width: 500px;
+.first_image{
+    width: 100vw;
+    max-width: 400px;
     filter:grayscale(30%);
-    /* filter:contrast(90%); */
+    opacity: .9;
+    
+    height: 400px;
+    object-fit:fill;
 }
 
 
@@ -45,7 +47,7 @@ body{
     border-top: 1px solid rgba(231, 204, 222, 0.76);
     padding-top: 35px;
     height: 60em;
-    background-color:rgba(248, 245, 247, 0.616);
+    background-color:rgba(217, 224, 216, 0.582);
     
 }
 
@@ -84,6 +86,6 @@ body{
 .location_icon_container img{
     width: 50px;
     filter: grayscale(60%);
-    opacity: .65;
+    opacity: .55;
     filter: saturate(10%);
 }
