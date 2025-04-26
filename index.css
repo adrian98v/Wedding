@@ -44,7 +44,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: 1px solid rgba(231, 204, 222, 0.76);
+    border-top: 1px solid rgba(204, 231, 204, 0.712);
     padding-top: 35px;
     height: 60em;
     background-color:rgba(217, 224, 216, 0.582);
@@ -62,7 +62,7 @@ body{
     height: 50px;
     width: 70%;
     max-width: 500px;
-    border-bottom: 1px solid rgba(196, 172, 188, 0.856);
+    border-bottom: 1px solid rgba(150, 175, 150, 0.781);
 }
 
 .watch_icon_container img{
