@@ -12,8 +12,8 @@ body{
 }
 
 .first_image{
-    width: 100vw;
-    max-width: 500px;
+    width: 100%;
+    max-width: 400px;
     filter:grayscale(30%);
     opacity: .85;
     
