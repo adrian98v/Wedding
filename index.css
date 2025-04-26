@@ -24,6 +24,7 @@ body{
     height: 100%;
     object-fit:cover;
     box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.247);
+    min-height: 200px;
 }
 
 
@@ -33,6 +34,7 @@ body{
     align-items: center;
     margin: 0px 25px;
     height: 18dvh;
+    min-height: 110px;
 }
 
 .timer_container div{
@@ -57,7 +59,9 @@ body{
     padding-top: 35px;
     height: 60em;
     background-color:rgba(217, 224, 216, 0.507);
-    
+    padding-bottom: 40px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid rgba(204, 231, 204, 0.712);
 }
 
 
@@ -98,4 +102,84 @@ body{
     filter: grayscale(60%);
     opacity: .5;
     filter: saturate(10%);
+}
+
+.dress_code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 170px;
+
+}
+
+.dress_code label{
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(53, 48, 48, 0.692);
+}
+
+.dress_icon_container{
+    text-align: center;
+}
+
+.dress_icon_container img{
+    width: 50px;
+    filter: grayscale(60%);
+    opacity: .5;
+    filter: saturate(10%);
+    
+}
+
+.confirmar_asistencia_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid rgba(193, 219, 193, 0.712);
+    padding-top: 40px;
+    height: 60em;
+    background-color:rgba(208, 219, 207, 0.507);
+}
+
+
+.asistencia_icon_container{
+    text-align: center;
+}
+
+.asistencia_icon_container img{
+    width: 50px;
+    filter: grayscale(60%);
+    opacity: .5;
+    filter: saturate(10%);
+}
+
+.confirmar_asistencia_container label{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(53, 48, 48, 0.692);
+}
+
+.form_container{
+    background-color: rgb(134, 165, 118);
+    width: 80%;
+    max-width: 550px;
+    height: 300px;
+    border-radius: 6px;
+    border: 1px solid rgb(109, 136, 95);
+    margin-top: 30px;
+}
+
+.form_asistencia{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.form_asistencia input{
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(109, 136, 95);
+    outline: 1px solid rgb(109, 136, 95);
 }

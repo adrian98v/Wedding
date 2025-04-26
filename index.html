@@ -73,9 +73,46 @@
         <label style="margin-top: 20px">¿DÓNDE?</label>
         <label style="font-size: 16px; margin-top: 20px; margin-bottom: 25px;">Avenida M. Moreno 910</label>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d723.148476254762!2d-58.99875510805823!3d-27.447776700895965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450d8dd8e19259%3A0x494c74e4f140b29b!2sLa%20F%C3%A1brica!5e0!3m2!1ses!2sar!4v1745272627578!5m2!1ses!2sar" 
-        width="70%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="calendario_division"></div>
+        width="70%" height="500px" style="border:0; max-width: 550px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
     </div>
+
+    <div class="dress_icon_container">
+        <img src="./assets/lab-coat-unscreen.gif"></img>
+    </div>
+
+    <div class="dress_code">
+        <label style="margin-top: 35px;">VESTIMENTA</label>
+        <label style="font-size: 16px; margin-top: 25px; margin-bottom: 25px">FORMAL ELEGANTE</label>
+    </div>
+
+
+    <div class="confirmar_asistencia_container">
+
+        <div class="asistencia_icon_container">
+            <img src="./assets/mail-unscreen.gif"></img>
+        </div>
+
+        <label style="margin-top: 35px;">CONFIRMA TU ASISTENCIA</label>
+       
+        <div class="form_container">  
+            <form action="" class="form_asistencia" method="POST">      <!-- en action va el servidor -->
+                <input placeholder="Nombre" />
+                <input placeholder="Apellido" />
+                <label style="font-size: 17px; color: rgba(0, 0, 0, 0.637);">¿Por cuántas personas confirmas?</label>
+                
+                <select style="width: 30%; height: 30px;">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </form>
+        </div>
+    </div>
+
+
 
     <script src="script.js"></script>
 </body>
