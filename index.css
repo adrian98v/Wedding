@@ -164,11 +164,11 @@ body{
     background-image: url("./assets/form-removebg-preview.png");
     background-position: center;
     background-size: cover;
-    width: 50%;
-    min-width: 400px;
-    max-width: 550px;
+    /* width: 50%; */
+    min-width: 300px;
+    max-width: 500px;
     height: fit-content;
-    padding: 100px 0px;
+    padding: 100px 30px;
     
     /* border-radius: 6px; */
     /* border: 1px solid rgb(109, 136, 95); */
@@ -181,33 +181,26 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    
 }
 
 .form_asistencia input{
     width: 40%;
-    min-width: 200px;
+    min-width: 170px;
     height: 25px;
     border-radius: 5px;
     border: 1px solid rgb(109, 136, 95);
     outline: 1px solid rgb(109, 136, 95);
 }
 
+#invitacionForm{
+    margin-top: 0px;
+}
 
 #invitacionForm button{
-    font-size: medium;
+    font-size: 15px;
     width: 90px;
-    height: 30px;
+    height: 25px;
     border-radius: 4px;
     border: 1px solid rgb(92, 117, 79);;
-}
-
-.asistencia_form_frame_container{
-    position: absolute;
-    margin-top: 90px;
-    width: 80vw;
-    max-width: 500px;
-}
-
-.asistencia_form_frame_container img{
-    width: 100%;
 }
