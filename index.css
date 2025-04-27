@@ -160,13 +160,19 @@ body{
 }
 
 .form_container{
-    background-color: rgb(134, 165, 118);
-    width: 80%;
+    /* background-color: rgb(134, 165, 118); */
+    background-image: url("./assets/form-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    min-width: 400px;
     max-width: 550px;
-    height: 300px;
-    border-radius: 6px;
-    border: 1px solid rgb(109, 136, 95);
-    margin-top: 30px;
+    height: fit-content;
+    padding: 100px 0px;
+    
+    /* border-radius: 6px; */
+    /* border: 1px solid rgb(109, 136, 95); */
+    /* margin-top: 10px; */
 }
 
 .form_asistencia{
@@ -178,7 +184,8 @@ body{
 }
 
 .form_asistencia input{
-    width: 80%;
+    width: 40%;
+    min-width: 200px;
     height: 25px;
     border-radius: 5px;
     border: 1px solid rgb(109, 136, 95);
@@ -188,8 +195,19 @@ body{
 
 #invitacionForm button{
     font-size: medium;
-    width: 120px;
+    width: 90px;
     height: 30px;
     border-radius: 4px;
     border: 1px solid rgb(92, 117, 79);;
+}
+
+.asistencia_form_frame_container{
+    position: absolute;
+    margin-top: 90px;
+    width: 80vw;
+    max-width: 500px;
+}
+
+.asistencia_form_frame_container img{
+    width: 100%;
 }
