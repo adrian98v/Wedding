@@ -125,7 +125,7 @@ body{
 }
 
 .dress_icon_container img{
-    width: 95px;
+    width: 100px;
     opacity: .7;
     
 }
@@ -137,12 +137,13 @@ body{
     border-top: 1px solid rgba(193, 219, 193, 0.712);
     padding-top: 40px;
     height: 60em;
-    background-color:rgba(208, 219, 207, 0.507);
+    background-color:rgba(247, 247, 238, 0.623);
 }
 
 
 .asistencia_icon_container{
     text-align: center;
+    
 }
 
 .asistencia_icon_container img{
@@ -182,4 +183,13 @@ body{
     border-radius: 5px;
     border: 1px solid rgb(109, 136, 95);
     outline: 1px solid rgb(109, 136, 95);
+}
+
+
+#invitacionForm button{
+    font-size: medium;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgb(92, 117, 79);;
 }
