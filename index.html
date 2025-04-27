@@ -100,19 +100,25 @@
         <label style="margin-top: 35px;">CONFIRMA TU ASISTENCIA</label>
        
         <div class="form_container">  
-            <form action="" class="form_asistencia" method="POST">      <!-- en action va el servidor -->
-                <input placeholder="Nombre" />
-                <input placeholder="Apellido" />
+            <form id="invitacionForm" class="form_asistencia" method="POST">      <!-- en action va el servidor -->
+                <input placeholder="Nombre" id="Nombre"/>
+                <input placeholder="Apellido" id="Apellido"/>
                 <label style="font-size: 17px; color: rgba(0, 0, 0, 0.637);">¿Por cuántas personas confirmas?</label>
                 
-                <select style="width: 30%; height: 30px;">
+                <select id="Personas" style="width: 30%; height: 30px;">
                     <option>0</option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
                     <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
                 </select>
+
+                <button type="submit">Confirmar</button>
+
             </form>
         </div>
     </div>

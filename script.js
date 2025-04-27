@@ -44,3 +44,25 @@ const timer = setInterval(()=>{
 }, 1000)
 
 
+const url = "https://sheetdb.io/api/v1/ci7qtrldeezk9"
+
+const form = document.getElementById("invitacionForm")
+
+
+
+form.addEventListener("submit", (e)=>{
+  e.preventDefault()
+  fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ 
+      data: { 
+        Nombre: document.getElementById('Nombre').value,
+        Apellido: document.getElementById('Apellido').value,
+        Personas: document.getElementById('Personas').value } 
+      })
+  })
+  .then(r => r.json())
+  .then(d => alert("Gracias por confirmar tu asistencia!\nTe esperamos"))
+  .catch(e => console.error(e));
+})

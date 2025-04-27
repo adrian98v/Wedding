@@ -73,6 +73,7 @@ body{
 
 .calendario_division{
     width: 75%;
+    max-width: 350px;
 }
 
 .calendario_division img{
