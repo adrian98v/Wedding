@@ -7,7 +7,9 @@ const timerMinutos = document.querySelector(".timer_minutos")
 
 const timerSegundos = document.querySelector(".timer_segundos")
 
-  
+
+
+
 
 const timer = setInterval(()=>{
   const fechaActual = new Date();
@@ -42,6 +44,40 @@ const timer = setInterval(()=>{
   }
   
 }, 1000)
+
+
+// ----------------------------------------------------------------
+
+
+
+
+
+const observer = new IntersectionObserver((entries, observerInstance)=>{
+    entries.forEach(entry =>{
+      if(entry.isIntersecting){
+        entry.target.classList.add("visible")
+        observerInstance.unobserve(entry.target)
+      }
+    })
+})
+  
+observer.observe(document.querySelector(".form_container"))
+observer.observe(document.querySelector(".imagen_container"))
+
+
+// ----------------------------------------------------------------
+
+
+const botonIngresar = document.querySelector(".button_ingresar")
+
+botonIngresar.addEventListener("click", ()=>{
+  document.querySelector(".container_general").style.display = "block";
+  document.querySelector(".intro_container").style.display = "none"
+  document.getElementById("audio").play()
+
+})
+
+
 
 
 const url = "https://sheetdb.io/api/v1/ci7qtrldeezk9"

@@ -11,129 +11,143 @@
     <title>Sofia & Adrián</title>
 </head>
 <body>
+
+    <audio id="audio" src="./assets/Till I Found you.mp3" ></audio>
+
+    <div class="intro_container">
+        <img class="fondo_ingresar" src="./assets/Fondo_ingresar.jpeg" />
+
+        <img class="text_ingresar" src="./assets/Footer_letters-removebg-preview.png" />
+
+        <div class="intro_text">Te damos la bienvenida<br/>a nuestra invitación</div>
     
-    <div class="imagen_container">
-        <img class="first_image" src="./assets/Imagen_fondo_circulo_pequeño.jpg"></img>
+        <button class="button_ingresar">Ingresar</button>
     </div>
 
-    <div class="timer_container">
-        <div class="dias_container">
-            <div class="timer_dias"></div>
-            <label class="label">Días</label>
-        </div>
-        
-        <div style="margin-bottom: 37px;">:</div>
+    <div class="container_general">
 
-        <div class="horas_container">
-            <div class="timer_horas"></div>
-            <label class="label">Horas</label>
+        <div class="imagen_container">
+            <img class="first_image" src="./assets/Imagen_fondo_circulo_pequeño.jpg"></img>
         </div>
-        
-        <div style="margin-bottom: 37px;">:</div>
-
-        <div class="minutos_container">
-            <div class="timer_minutos"></div>
-            <label class="label">Minutos</label>
+    
+    
+        <div class="timer_container">
+            <div class="dias_container">
+                <div class="timer_dias"></div>
+                <label class="label">Días</label>
+            </div>
+            
+            <div style="margin-bottom: 37px;">:</div>
+    
+            <div class="horas_container">
+                <div class="timer_horas"></div>
+                <label class="label">Horas</label>
+            </div>
+            
+            <div style="margin-bottom: 37px;">:</div>
+    
+            <div class="minutos_container">
+                <div class="timer_minutos"></div>
+                <label class="label">Minutos</label>
+            </div>
+            
+            <div style="margin-bottom: 37px;">:</div>
+    
+            <div class="segundos_container">
+                <div class="timer_segundos"></div>
+                <label class="label">Segundos</label>
+            </div>
+            
         </div>
-        
-        <div style="margin-bottom: 37px;">:</div>
-
-        <div class="segundos_container">
-            <div class="timer_segundos"></div>
-            <label class="label">Segundos</label>
+    
+    
+        <div class="calendario_container">
+            <div class="calendar_icon_container">
+                <img src="./assets/calendar-unscreen.gif"></img>
+            </div>
+    
+            <label style="margin-top: 25px;">¿CUÁNDO?</label>
+            <label style="font-size: 16px; margin-top: 25px; margin-bottom: 25px;">18 DE OCTUBRE 2025</label>
+    
+            <div class="calendario_division">
+                <img src="./assets/WhatsApp_Image_2025-04-26_at_17.23.44-removebg-preview.png"></img>
+            </div>
+    
+            <div class="watch_icon_container">
+                <img src="./assets/clock-unscreen.gif"></img>
+            </div>
+            
+            <label style="margin-top: 25px;">HORARIO</label>
+            <label style="font-size: 16px; margin-top: 25px; margin-bottom: 25px">21:00 HS</label>
+    
+            <div class="calendario_division">
+                <img src="./assets/WhatsApp_Image_2025-04-26_at_17.23.44-removebg-preview.png"></img>
+            </div>
+    
+            <div class="location_icon_container" style="margin-top: 30px;">
+                <img src="./assets/map-unscreen.gif"></img>
+            </div>
+    
+    
+            <label style="margin-top: 20px">¿DÓNDE?</label>
+            <label style="font-size: 16px; margin-top: 20px; margin-bottom: 25px;">Avenida M. Moreno 910</label>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d723.148476254762!2d-58.99875510805823!3d-27.447776700895965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450d8dd8e19259%3A0x494c74e4f140b29b!2sLa%20F%C3%A1brica!5e0!3m2!1ses!2sar!4v1745272627578!5m2!1ses!2sar" 
+            width="70%" height="500px" style="border:0; max-width: 550px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
         </div>
-        
+    
+        <div class="dress_icon_container">
+            <img src="./assets/Hangers-removebg-preview.png"></img>
+        </div>
+    
+        <div class="dress_code">
+            <label style="margin-top: 15px;">VESTIMENTA</label>
+            <label style="font-size: 16px; margin-top: 25px; margin-bottom: 25px">ELEGANTE SPORT</label>
+        </div>
+    
+    
+        <div class="confirmar_asistencia_container">
+    
+            <div class="asistencia_icon_container">
+                <img src="./assets/mail-unscreen.gif"></img>
+            </div>
+    
+            <label style="margin-top: 35px;">CONFIRMA TU ASISTENCIA</label>
+           
+            
+    
+            <div class="form_container">  
+                <form id="invitacionForm" class="form_asistencia" method="POST">  
+                    <input placeholder="Nombre" id="Nombre" required/>
+                    <input placeholder="Apellido" id="Apellido" required/>
+                    <label style="font-size: 15px; color: rgba(0, 0, 0, 0.637);">¿Por cuántas personas confirmas?</label>
+                    
+                    <select id="Personas" required style="width: 30%; height: 30px;">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                    </select>
+    
+                    <button type="submit">Confirmar</button>
+    
+                </form>
+            </div>
+    
+            <div class="footer">
+                <img src="./assets/Footer_letters-removebg-preview.png" />
+            </div>
+        </div>
+    
     </div>
 
-
-    <div class="calendario_container">
-        <div class="calendar_icon_container">
-            <img src="./assets/calendar-unscreen.gif"></img>
-        </div>
-
-        <label style="margin-top: 25px;">¿CUÁNDO?</label>
-        <label style="font-size: 16px; margin-top: 25px; margin-bottom: 25px;">18 DE OCTUBRE 2025</label>
-
-        <div class="calendario_division">
-            <img src="./assets/WhatsApp_Image_2025-04-26_at_17.23.44-removebg-preview.png"></img>
-        </div>
-
-        <div class="watch_icon_container">
-            <img src="./assets/clock-unscreen.gif"></img>
-        </div>
-        
-        <label style="margin-top: 25px;">HORARIO</label>
-        <label style="font-size: 16px; margin-top: 25px; margin-bottom: 25px">21:00 HS</label>
-
-        <div class="calendario_division">
-            <img src="./assets/WhatsApp_Image_2025-04-26_at_17.23.44-removebg-preview.png"></img>
-        </div>
-
-        <div class="location_icon_container" style="margin-top: 30px;">
-            <img src="./assets/map-unscreen.gif"></img>
-        </div>
-
-
-        <label style="margin-top: 20px">¿DÓNDE?</label>
-        <label style="font-size: 16px; margin-top: 20px; margin-bottom: 25px;">Avenida M. Moreno 910</label>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d723.148476254762!2d-58.99875510805823!3d-27.447776700895965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450d8dd8e19259%3A0x494c74e4f140b29b!2sLa%20F%C3%A1brica!5e0!3m2!1ses!2sar!4v1745272627578!5m2!1ses!2sar" 
-        width="70%" height="500px" style="border:0; max-width: 550px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        
-    </div>
-
-    <div class="dress_icon_container">
-        <img src="./assets/Hangers-removebg-preview.png"></img>
-    </div>
-
-    <div class="dress_code">
-        <label style="margin-top: 15px;">VESTIMENTA</label>
-        <label style="font-size: 16px; margin-top: 25px; margin-bottom: 25px">ELEGANTE SPORT</label>
-    </div>
-
-
-    <div class="confirmar_asistencia_container">
-
-        <div class="asistencia_icon_container">
-            <img src="./assets/mail-unscreen.gif"></img>
-        </div>
-
-        <label style="margin-top: 35px;">CONFIRMA TU ASISTENCIA</label>
-       
-        <!-- <div class="asistencia_form_frame_container">
-            <img src="./assets/form-removebg-preview.png"></img>
-        
-        
-        </div> -->
-
-
-        <div class="form_container">  
-            <form id="invitacionForm" class="form_asistencia" method="POST">  
-                <input placeholder="Nombre" id="Nombre" required/>
-                <input placeholder="Apellido" id="Apellido" required/>
-                <label style="font-size: 15px; color: rgba(0, 0, 0, 0.637);">¿Por cuántas personas confirmas?</label>
-                
-                <select id="Personas" required style="width: 30%; height: 30px;">
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                </select>
-
-                <button type="submit">Confirmar</button>
-
-            </form>
-        </div>
-
-        <div class="footer">
-            <img src="./assets/Footer_letters-removebg-preview.png" />
-        </div>
-    </div>
-
+    
+    
 
 
     <script src="script.js"></script>
