@@ -4,6 +4,7 @@ body{
 
 .container_general{
     display: none;
+    
 }
 
 
@@ -236,7 +237,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 0px;
 }
 
 .intro_container div{
@@ -248,11 +249,12 @@ body{
 }
 
 .fondo_ingresar{
-    height: 100dvh;
+    height: 100vh;
     object-fit: fill;
     position: absolute;
     z-index: -1;
     box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.247);
+
 }
 
 
@@ -299,7 +301,7 @@ body{
     display: none;
     position: fixed;
     right: 5px;
-    top: 72vh;
+    top: 70vh;
     width: 45px;
     height: 45px;
     z-index: 5;
