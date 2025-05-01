@@ -77,7 +77,7 @@ botonIngresar.addEventListener("click", ()=>{
   document.querySelector(".button_play").style.display = "block";
   document.querySelector(".intro_container").style.display = "none"
   document.getElementById("audio").play()
-  document.getElementById("audio").volume = 0.6
+  document.getElementById("audio").volume = 0.5
 })
 
 
