@@ -249,6 +249,7 @@ body{
 }
 
 .fondo_ingresar{
+    width: 100vw;
     height: 100vh;
     object-fit: fill;
     position: absolute;
