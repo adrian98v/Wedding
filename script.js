@@ -87,7 +87,7 @@ buttonPlay.addEventListener("click", ()=>{
   if(!document.getElementById("audio").paused){
 
     document.getElementById("audio").pause()
-    buttonPlay.textContent = "►"
+    buttonPlay.textContent = "▶"
   }else{
     document.getElementById("audio").play()
     buttonPlay.textContent = "II"
