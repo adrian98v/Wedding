@@ -63,6 +63,8 @@ const observer = new IntersectionObserver((entries, observerInstance)=>{
   
 observer.observe(document.querySelector(".form_container"))
 observer.observe(document.querySelector(".imagen_container"))
+observer.observe(document.querySelector(".button_play"));
+
 
 
 // ----------------------------------------------------------------
@@ -72,11 +74,25 @@ const botonIngresar = document.querySelector(".button_ingresar")
 
 botonIngresar.addEventListener("click", ()=>{
   document.querySelector(".container_general").style.display = "block";
+  document.querySelector(".button_play").style.display = "block";
   document.querySelector(".intro_container").style.display = "none"
   document.getElementById("audio").play()
-
+  document.getElementById("audio").volume = 0.4
 })
 
+
+const buttonPlay = document.querySelector(".button_play")
+
+buttonPlay.addEventListener("click", ()=>{
+  if(!document.getElementById("audio").paused){
+
+    document.getElementById("audio").pause()
+    buttonPlay.textContent = "►"
+  }else{
+    document.getElementById("audio").play()
+    buttonPlay.textContent = "II"
+  }
+})
 
 
 
