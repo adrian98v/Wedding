@@ -251,7 +251,7 @@ body{
 .fondo_ingresar{
     width: 100vw;
     height: 100vh;
-    object-fit: fill;
+    object-fit: cover;
     position: absolute;
     z-index: -1;
     box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.247);
