@@ -24,17 +24,18 @@ It's designed to work beautifully on both mobile and desktop devices, providing 
 
 ---
 
+### 👀 Live website
+
+[Visit the page](https://nuestrainvitacion.netlify.app/)  
+
+---
+
 ### 🛠️ Technologies Used
 
 - **HTML** — Markup structure
 - **CSS** — Styling and animations
 - **JavaScript** — Interactivity and dynamic elements
 
----
 
-### 👀 Preview
-
-[Visit the page](https://nuestrainvitacion.netlify.app/)  
-_(Add your own preview image above if available!)_
 
 
