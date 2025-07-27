@@ -111,10 +111,24 @@ form.addEventListener("submit", (e)=>{
       data: { 
         Nombre: document.getElementById('Nombre').value,
         Apellido: document.getElementById('Apellido').value,
-        Personas: document.getElementById('Personas').value } 
+        Personas: 1} 
       })
   })
   .then(r => r.json())
   .then(d => alert("Gracias por confirmar tu asistencia!\nTe esperamos"))
   .catch(e => console.error(e));
+})
+
+
+
+const botonPopUp = document.querySelector(".plata_button")
+
+botonPopUp.addEventListener("click", ()=>{
+  document.querySelector(".gift_popup_container").classList.toggle("visible")
+})
+
+const botonVolver = document.querySelector(".gift_popup_volver")
+
+botonVolver.addEventListener("click", ()=>{
+  document.querySelector(".gift_popup_container").classList.toggle("visible")
 })

@@ -131,6 +131,43 @@ body{
     color: rgba(53, 48, 48, 0.692);
 }
 
+
+.plata_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 220px;
+    background-color: rgba(247, 247, 238, 0.623);
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(204, 231, 204, 0.712);
+
+}
+
+.plata_container label{
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(53, 48, 48, 0.692);
+}
+
+
+.gift_icon_container img{
+    width: 50px;
+    filter: grayscale(80%);
+    opacity: .6;
+    margin-top: 25px;
+}
+
+.plata_container button{
+    font-size: 15px;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(92, 117, 79, 0.623);
+    font-family: "Montserrat", sans-serif;
+    opacity: .9;
+}
+
+
 .dress_icon_container{
     text-align: center;
 }
@@ -148,7 +185,7 @@ body{
     border-top: 1px solid rgba(193, 219, 193, 0.712);
     padding-top: 40px;
     height: 38em;
-    background-color:rgba(247, 247, 238, 0.623);
+    background-color:rgba(250, 250, 250, 0.699);
 }
 
 
@@ -194,7 +231,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
     
 }
 
@@ -212,11 +249,12 @@ body{
 }
 
 #invitacionForm button{
-    font-size: 15px;
+    font-size: 13px;
     width: 90px;
     height: 25px;
     border-radius: 4px;
-    border: 1px solid rgb(92, 117, 79);;
+    border: 1px solid rgb(92, 117, 79);
+    font-family: "Montserrat", sans-serif;
 }
 
 .footer img{
@@ -292,6 +330,7 @@ body{
     font-size: 17px;
     color: black;
     border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
     /* height:  45px; */
 }
 
@@ -326,6 +365,43 @@ body{
 
 .button_play:active{
     background-color: rgb(196, 207, 175);
+}
+
+.gift_popup_container{
+    display: none;
+}
+
+.gift_popup_container.visible{
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(8, 8, 8, 0.6);
+}
+
+.gift_popup_text_container label{
+    font-family: "Montserrat", sans-serif;
+}
+
+.gift_popup_text_container{
+    width: 80%;
+    height: 200px;
+    background-color:rgb(221, 238, 211);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gift_popup_volver{
+    width: 25%;
+    font-family: "Montserrat", sans-serif;
 }
 
 
