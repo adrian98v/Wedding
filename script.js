@@ -115,7 +115,9 @@ form.addEventListener("submit", (e)=>{
       })
   })
   .then(r => r.json())
-  .then(d => alert("Gracias por confirmar tu asistencia!\nTe esperamos"))
+  .then(d => 
+    document.querySelector(".confirmacion_asistencia_container").classList.toggle("visible")
+  )
   .catch(e => console.error(e));
 })
 
@@ -131,4 +133,11 @@ const botonVolver = document.querySelector(".gift_popup_volver")
 
 botonVolver.addEventListener("click", ()=>{
   document.querySelector(".gift_popup_container").classList.toggle("visible")
+})
+
+
+const botonConfirmacionVolver = document.querySelector(".confirmacion_asistencia_volver")
+
+botonConfirmacionVolver.addEventListener("click", ()=>{
+  document.querySelector(".confirmacion_asistencia_container").classList.toggle("visible")
 })
