@@ -158,13 +158,14 @@ body{
 }
 
 .plata_container button{
-    font-size: 15px;
-    width: 180px;
-    height: 40px;
+    font-size: 12px;
+    width: 170px;
+    height: 42px;
     border-radius: 8px;
     border: 1px solid rgba(92, 117, 79, 0.623);
     font-family: "Montserrat", sans-serif;
     opacity: .9;
+
 }
 
 
@@ -401,7 +402,16 @@ body{
 
 .gift_popup_volver{
     width: 25%;
+    height: 27px;
+    border-radius: 8px;
     font-family: "Montserrat", sans-serif;
+    border: 1px solid rgb(135, 141, 106);
+}
+
+
+.gift_alternativa_text{
+    font-size: 12px;
+    width: 85%;
 }
 
 
