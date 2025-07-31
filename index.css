@@ -392,7 +392,7 @@ body{
 .gift_popup_text_container{
     width: 80%;
     height: 200px;
-    background-color:rgb(221, 238, 211);
+    background-color:rgb(226, 241, 218);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
