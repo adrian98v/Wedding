@@ -165,6 +165,7 @@ body{
     border: 1px solid rgba(92, 117, 79, 0.623);
     font-family: "Montserrat", sans-serif;
     opacity: .9;
+    color: black;
 
 }
 
@@ -256,6 +257,7 @@ body{
     border-radius: 4px;
     border: 1px solid rgb(92, 117, 79);
     font-family: "Montserrat", sans-serif;
+    color: black;
 }
 
 .footer img{
@@ -446,6 +448,10 @@ body{
 
 .confirmacion_asistencia_text_container label{
     font-family: "Montserrat", sans-serif;
+}
+
+.confirmacion_asistencia_text_container button{
+    color: black;
 }
 
 
