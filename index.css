@@ -438,7 +438,7 @@ body{
 .confirmacion_asistencia_text_container{
     width: 80%;
     height: 200px;
-    background-color:rgb(226, 241, 218);
+    background-color:rgb(228, 241, 221);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
