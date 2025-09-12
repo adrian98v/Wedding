@@ -138,7 +138,7 @@ body{
     align-items: center;
     height: 220px;
     background-color: rgba(247, 247, 238, 0.623);
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     border-top: 1px solid rgba(204, 231, 204, 0.712);
 
 }
@@ -410,7 +410,7 @@ body{
 
 
 .gift_alternativa_text{
-    font-size: 12px;
+    font-size: 11px;
     width: 85%;
 }
 
