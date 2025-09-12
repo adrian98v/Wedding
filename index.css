@@ -258,7 +258,14 @@ body{
     border: 1px solid rgb(92, 117, 79);
     font-family: "Montserrat", sans-serif;
     color: black;
+    background-color: rgb(241, 241, 241);
 }
+
+#invitacionForm button:active{
+    
+    background-color: rgb(223, 223, 223);
+}
+
 
 .footer img{
     width: 180px;
@@ -408,6 +415,7 @@ body{
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
     border: 1px solid rgb(135, 141, 106);
+    color: black;
 }
 
 
