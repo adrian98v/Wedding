@@ -71,7 +71,7 @@ body{
     height: 60em;
     background-color:rgba(247, 247, 238, 0.623);
     padding-bottom: 40px;
-    margin-bottom: 20px;
+    
     border-bottom: 1px solid rgba(204, 231, 204, 0.712);
 }
 
@@ -460,6 +460,15 @@ body{
 
 .confirmacion_asistencia_text_container button{
     color: black;
+}
+
+
+.container_vestimenta{
+    background-position: center;
+    background-size: cover;
+    background-image: url("./assets/ChatGPT_vestimenta_fondo.png");
+    width: 100%;
+   
 }
 
 
